@@ -1,10 +1,9 @@
 name: Email Step Demo
-on:
-  workflow_dispatch:  # Allows manual triggering
+on: [workflow_dispatch]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Step with email 23f1002279@ds.study.iitm.ac.in
-        run: echo "Action triggered successfully!"
+      - name: "23f1002279@ds.study.iitm.ac.in"
+        run: echo "Hello, world!"
